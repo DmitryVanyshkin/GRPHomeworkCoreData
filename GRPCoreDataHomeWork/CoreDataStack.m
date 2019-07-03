@@ -28,7 +28,6 @@
         {
             return _container;
         }
-        
         _container = [NSPersistentContainer persistentContainerWithName:@"GRPIndexStack"];
         [_container loadPersistentStoresWithCompletionHandler:^(NSPersistentStoreDescription * _Nonnull desc, NSError * _Nullable error) {
             if (error)
@@ -37,7 +36,6 @@
                 abort();
             }
         }];
-        
         return _container;
     }
 }

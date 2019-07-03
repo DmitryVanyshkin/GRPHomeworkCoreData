@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB4E985122CD2CA300C57BD4 /* GRPIndexStack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB4E984F22CD2CA300C57BD4 /* GRPIndexStack.xcdatamodeld */; };
 		CBC2595C22C38F9000FAE716 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC2595B22C38F9000FAE716 /* AppDelegate.m */; };
 		CBC2595F22C38F9000FAE716 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC2595E22C38F9000FAE716 /* ViewController.m */; };
 		CBC2596422C38F9300FAE716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC2596322C38F9300FAE716 /* Assets.xcassets */; };
 		CBC2596722C38F9300FAE716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC2596522C38F9300FAE716 /* LaunchScreen.storyboard */; };
 		CBC2596A22C38F9300FAE716 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC2596922C38F9300FAE716 /* main.m */; };
 		CBC2597222C3CFF100FAE716 /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC2597122C3CFF100FAE716 /* CoreDataStack.m */; };
-		CBC2597522C3D51F00FAE716 /* GRPIndexStack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBC2597322C3D51F00FAE716 /* GRPIndexStack.xcdatamodeld */; };
 		CBC2597822C3D55C00FAE716 /* CollectionElement.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC2597722C3D55C00FAE716 /* CollectionElement.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB4E985022CD2CA300C57BD4 /* GRPIndexStack.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GRPIndexStack.xcdatamodel; sourceTree = "<group>"; };
 		CBC2595722C38F9000FAE716 /* GRPCoreDataHomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRPCoreDataHomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBC2595A22C38F9000FAE716 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBC2595B22C38F9000FAE716 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		CBC2596922C38F9300FAE716 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBC2597022C3CFF100FAE716 /* CoreDataStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
 		CBC2597122C3CFF100FAE716 /* CoreDataStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
-		CBC2597422C3D51F00FAE716 /* GRPIndexStack.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GRPIndexStack.xcdatamodel; sourceTree = "<group>"; };
 		CBC2597622C3D55C00FAE716 /* CollectionElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionElement.h; sourceTree = "<group>"; };
 		CBC2597722C3D55C00FAE716 /* CollectionElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionElement.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,7 +70,7 @@
 				CBC2595E22C38F9000FAE716 /* ViewController.m */,
 				CBC2597022C3CFF100FAE716 /* CoreDataStack.h */,
 				CBC2597122C3CFF100FAE716 /* CoreDataStack.m */,
-				CBC2597322C3D51F00FAE716 /* GRPIndexStack.xcdatamodeld */,
+				CB4E984F22CD2CA300C57BD4 /* GRPIndexStack.xcdatamodeld */,
 				CBC2597622C3D55C00FAE716 /* CollectionElement.h */,
 				CBC2597722C3D55C00FAE716 /* CollectionElement.m */,
 				CBC2596322C38F9300FAE716 /* Assets.xcassets */,
@@ -152,8 +152,8 @@
 			files = (
 				CBC2595F22C38F9000FAE716 /* ViewController.m in Sources */,
 				CBC2596A22C38F9300FAE716 /* main.m in Sources */,
-				CBC2597522C3D51F00FAE716 /* GRPIndexStack.xcdatamodeld in Sources */,
 				CBC2595C22C38F9000FAE716 /* AppDelegate.m in Sources */,
+				CB4E985122CD2CA300C57BD4 /* GRPIndexStack.xcdatamodeld in Sources */,
 				CBC2597822C3D55C00FAE716 /* CollectionElement.m in Sources */,
 				CBC2597222C3CFF100FAE716 /* CoreDataStack.m in Sources */,
 			);
@@ -343,13 +343,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		CBC2597322C3D51F00FAE716 /* GRPIndexStack.xcdatamodeld */ = {
+		CB4E984F22CD2CA300C57BD4 /* GRPIndexStack.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				CBC2597422C3D51F00FAE716 /* GRPIndexStack.xcdatamodel */,
+				CB4E985022CD2CA300C57BD4 /* GRPIndexStack.xcdatamodel */,
 			);
-			currentVersion = CBC2597422C3D51F00FAE716 /* GRPIndexStack.xcdatamodel */;
-			path = GRPIndexStack.xcdatamodeld;
+			currentVersion = CB4E985022CD2CA300C57BD4 /* GRPIndexStack.xcdatamodel */;
+			name = GRPIndexStack.xcdatamodeld;
+			path = ../GRPIndexStack.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

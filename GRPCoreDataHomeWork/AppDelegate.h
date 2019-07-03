@@ -8,10 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ Нативный класс, управляющий некоторым поведением нашего приложения
+ */
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+/**
+ Основное окно нашего приложения
+ */
 @property (strong, nonatomic) UIWindow *window;
-
 
 @end
 

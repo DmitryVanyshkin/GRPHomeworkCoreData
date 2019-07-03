@@ -10,6 +10,6 @@
 
 @implementation CollectionElement
 
-@dynamic hwIndexValue;
+@dynamic homeworkIndexValue;
 
 @end
